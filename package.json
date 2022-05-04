@@ -1,0 +1,28 @@
+{
+  "name": "password-reset-backend",
+  "version": "1.0.0",
+  "description": "A password reset API, where user can reset the password using the link provided to their email address",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "author": "J-NAVEEN-KUMAR",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "crypto-random-string": "^4.0.0",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "express-jwt": "^6.1.1",
+    "express-validator": "^6.14.0",
+    "jsonwebtoken": "^8.5.1",
+    "lodash": "^4.17.21",
+    "mongoose": "^6.2.10",
+    "morgan": "^1.10.0",
+    "nodemailer": "^6.7.3",
+    "nodemon": "^2.0.15"
+  }
+}

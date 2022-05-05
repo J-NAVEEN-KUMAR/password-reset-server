@@ -4,7 +4,7 @@
   "description": "A password reset API, where user can reset the password using the link provided to their email address",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon index.js"
+    "start": "node index.js"
   },
   "author": "J-NAVEEN-KUMAR",
   "license": "ISC",
